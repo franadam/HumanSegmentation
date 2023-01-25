@@ -4,3 +4,25 @@ I use CT-ORG as the dataset https://wiki.cancerimagingarchive.net/pages/viewpage
 ## Resample 
 
 resample and standardize the dataset images to have a maximal resolution of 256x256 pixels and to have a maximum of 300 volumetric slices
+
+# DONE
+
+## Preprocessing methods
+
+- Histogram Equalization
+- Resizing
+- Normalization
+
+# TODO
+
+## Preprocessing methods
+- Data Augmentation (Elastic transformation, Rotation, Flip)
+
+## Post processing methods 
+- Morphological operations/Hole filling
+- Smoothing
+- Thresholding
+
+## Evaluate model
+
+- Confusion matrix
